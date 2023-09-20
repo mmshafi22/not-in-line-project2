@@ -1,0 +1,181 @@
+.packages-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 25px;
+}
+.packages-view-heading {
+  font-family: sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  color: #333333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.packages-view-heading img {
+  align-self: flex-end;
+  width: 250px;
+  padding-top: 10px;
+}
+.heading-high-light-packages {
+  color: #138ed1;
+}
+.caption {
+  font-family: sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  color: #6e6e6e;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  max-width: 700px;
+}
+.packages-card-lists {
+  position: relative;
+  list-style-type: none;
+  padding-left: 0;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.package-card {
+  background-color: #fefefe;
+  box-shadow: 0px 0px 14px 1px #efefef;
+  width: 300px;
+  max-width: 350px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.package-card h1 {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  color: #2f2f2f;
+}
+.rating-container {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #2f2f2f;
+}
+.review {
+  font-weight: lighter;
+}
+.price {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.test-count {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #2f2f2f;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+.cancel-price {
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 18px;
+  color: #6e6e6e;
+}
+.prev-price {
+  text-decoration: line-through;
+}
+.deal-price {
+  font-family: sans-serif;
+  font-weight: 400;
+  color: #2f2f2f;
+  font-size: 15px;
+}
+.btn-book-now {
+  background-color: #138ed1;
+  width: 80%;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+  align-self: center;
+  margin-top: 8px;
+}
+.arrow-right {
+  box-shadow: 0px 0px 14px 1px #0f0f0f;
+  position: sticky;
+  right: 24%;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #ffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.see-all {
+  font-family: sans-serif;
+  font-size: 18px;
+  color: #00486c;
+  align-self: flex-end;
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 17%;
+}
+@media (max-width: 1700px) and (min-width: 992px) {
+  .arrow-right {
+    right: 18%;
+  }
+}
+@media (max-width: 991px) {
+  .packages-view-heading {
+    font-size: 15px;
+  }
+  .arrow-right {
+    display: none;
+  }
+  .see-all {
+    display: block;
+  }
+  .deal-price {
+    font-size: 12px;
+  }
+  .cancel-price {
+    font-size: 12px;
+  }
+  .rating-container {
+    font-size: 12px;
+  }
+  .test-count {
+    font-size: 12px;
+  }
+  .package-card h1 {
+    font-size: 18px;
+  }
+  .packages-view-heading img {
+    width: 180px;
+  }
+  .packages-card-lists {
+    flex-direction: column;
+    width: 90%;
+  }
+  .package-card {
+    margin-bottom: 10px;
+  }
+}

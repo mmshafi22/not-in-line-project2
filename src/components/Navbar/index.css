@@ -1,0 +1,154 @@
+.navbar-large-screen {
+  box-shadow: 0px 0px 14px 2px #efefef;
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav-dark-bg-color {
+  background-color: #000000;
+}
+.nav-light-bg-color {
+  background-color: #fefefe;
+}
+.nav-text-dark-color {
+  color: #fefefe;
+}
+.nav-text-light-color {
+  color: #000000;
+}
+.nav-details-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+}
+.nav-logo-container {
+  display: flex;
+  align-items: center;
+}
+.nav-logo-container h1 {
+  font-family: sans-serif;
+  font-size: 30px;
+}
+.nav-logo-container h1 span {
+  color: #138ed1;
+}
+.not-in-line-navigation-lists {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+li {
+  position: relative;
+  cursor: pointer;
+}
+.not-in-line-navigation-lists li:hover {
+  color: #138ed1;
+}
+.not-in-line-btn-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.btn-patients-hospital {
+  background-color: #00486c;
+  width: 110px;
+  height: 35px;
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: #ffff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  outline: none;
+}
+.btn-play-store {
+  background-color: #000000;
+  width: 110px;
+  height: 35px;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: #fefefe;
+}
+.btn-light {
+  background-color: #fefefe;
+}
+.btn-light-text {
+  color: #000000;
+}
+.btn-menu {
+  background-color: transparent;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+.navbar-small-medium-screen {
+  box-shadow: 0px 0px 14px 2px #efefef;
+  width: 100vw;
+  display: none;
+}
+.navbar-mobile-small-top-section {
+  padding: 15px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #dbdbdb;
+}
+.toggle-menu-theme {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.navbar-mobile-bottom-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  transition: display 0.5s ease-in-out;
+  width: 100vw;
+}
+.mobile-position {
+  align-self: flex-start;
+}
+@media (max-width: 991px) {
+  .navbar-large-screen {
+    display: none;
+  }
+  .navbar-small-medium-screen {
+    display: block;
+  }
+  .not-in-line-navigation-lists {
+    font-size: 12px;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .btn-patients-hospital {
+    width: 80px;
+    font-size: 12px;
+  }
+  .btn-play-store {
+    width: 90px;
+    font-size: 12px;
+  }
+  .not-in-line-btn-container {
+    width: 100%;
+    justify-content: space-evenly;
+  }
+}

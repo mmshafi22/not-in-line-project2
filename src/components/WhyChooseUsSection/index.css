@@ -1,0 +1,153 @@
+.why-choose-us-bg-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 45px;
+}
+.why-choose-us-heading {
+  font-family: sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  color: #333333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.caption {
+  align-self: center;
+  padding-bottom: 30px;
+}
+.why-choose-us-heading h1 {
+  text-align: center;
+}
+.why-choose-us-heading img {
+  width: 200px;
+  align-self: center;
+}
+.reason-cards-lists {
+  list-style-type: none;
+  width: 80%;
+  padding-left: 0px;
+  margin-top: 40px;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.reason-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 300px;
+  background-color: #ffff;
+  box-shadow: 0px 0px 14px 2px #eeeeee;
+  border-radius: 10px;
+  margin: 20px;
+}
+.second-card {
+  margin-left: 25px;
+  margin-top: 30px;
+}
+.reason-mobile-view-cards-list {
+  list-style-type: none;
+  width: 100%;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.reason-card h1 {
+  font-family: sans-serif;
+  font-size: 22px;
+  color: #2f2f2f;
+  font-weight: bold;
+}
+.reason-card p {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+  color: #2f2f2f;
+}
+.reason-card img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 14px 3px #eeeeee;
+  position: absolute;
+  left: 85%;
+  bottom: 80%;
+}
+.reason-card-mobile {
+  background-color: #ffff;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 0px 14px 2px #eeeeee;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+.closed-card {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  position: relative;
+}
+.closed-card p {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: #262626;
+  padding-left: 10px;
+}
+.closed-card img {
+  width: 40px;
+  height: 40px;
+}
+.hide-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  color: #2f2f2f;
+}
+.hide-content p {
+  text-align: center;
+}
+.button-icon {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  position: absolute;
+  left: 90%;
+}
+@media (min-width: 992px) {
+  .reason-mobile-view-cards-list {
+    display: none;
+  }
+}
+@media (max-width: 991px) {
+  .why-choose-us-heading {
+    font-size: 15px;
+  }
+  .reason-cards-lists {
+    width: 100%;
+    display: none;
+  }
+  .why-choose-us-heading img {
+    width: 130px;
+  }
+}
