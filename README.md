@@ -44,21 +44,6 @@ In this project, let's build a **Gradient Generator** app by applying the concep
 ### Resources
 
 <details>
-<summary>Colors</summary>
-
-<br/>
-
-<div style="background-color: #8ae323; width: 150px; padding: 10px; color: black">Hex: #8ae323</div>
-<div style="background-color: #014f7b; width: 150px; padding: 10px; color: white">Hex: #014f7b</div>
-<div style="background-color: #ededed; width: 150px; padding: 10px; color: black">Hex: #ededed</div>
-<div style="background-color: #334155; width: 150px; padding: 10px; color: white">Hex: #334155</div>
-<div style="background-color: #ffffff79; width: 150px; padding: 10px; color: black">Hex: #ffffff79</div>
-<div style="background-color: #1e293b; width: 150px; padding: 10px; color: white">Hex: #1e293b</div>
-<div style="background-color: #00c9b7; width: 150px; padding: 10px; color: black">Hex: #00c9b7</div>
-
-</details>
-
-<details>
 <summary>Font-families</summary>
 
 - Roboto
